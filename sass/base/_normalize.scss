@@ -1,0 +1,27 @@
+@use  '../utilities/variables' as variables;
+@use '../utilities/mixins' as mixins;
+
+/*** NORMALIZE ***/
+
+:root {
+    --very-dark-grayish-blue: #{map-get(variables.$colors, 'very-dark-grayish-blue')};
+    --desaturated-dark-blue: #{map-get(variables.$colors, 'desaturated-dark-blue')};
+    --grayish-blue: #{map-get(variables.$colors, 'grayish-blue')};
+    --light-grayish-blue: #{map-get(variables.$colors, 'light-grayish-blue')};
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    min-height: 100vh;
+    @include mixins.caja-flex(column,space-around,center);
+    background-color: var(--light-grayish-blue);
+
+    
+    font-family: variables.$font;
+    font-size: 13px;
+}
