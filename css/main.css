@@ -211,10 +211,6 @@
   font-size: 21px;
   cursor: pointer;
 }
-.share__icon:hover {
-  transform: scale(1.2);
-  transition: all 0.5s;
-}
 
 .share-container {
   visibility: hidden;
