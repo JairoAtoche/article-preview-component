@@ -182,9 +182,8 @@
                 border-top-color: transparent;
                 border-top-color: var(--very-dark-grayish-blue);
                 position: absolute;
-                left: 52%;
+                left: 46%;
                 bottom: -50%;
-                transform: translateX(-50%);
             }
         }    
     }
@@ -196,10 +195,11 @@
     &__icon {
         font-size: 21px;
         cursor: pointer;
-    }
-    &__icon:hover {
-        transform: scale(1.2);
-        transition: all .5s;
+        
+        &:hover {
+            transform: scale(1.2);
+            transition: all .5s;
+        }
     }
 }
 // share hidden

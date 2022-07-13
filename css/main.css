@@ -198,9 +198,8 @@
     border-top-color: transparent;
     border-top-color: var(--very-dark-grayish-blue);
     position: absolute;
-    left: 52%;
+    left: 46%;
     bottom: -50%;
-    transform: translateX(-50%);
   }
 }
 .share__p {
